@@ -2,6 +2,7 @@ body{
   display: flex;
   flex-direction: column;
   background-color: #DBD3BF;
+  color: #3D3C39;
 }
 
 header {
@@ -47,9 +48,33 @@ a{
   color: #CDAB8D;
 }
 
+a:hover {
+  font-weight: bold;
+}
+
+a:active {
+  color: white;
+}
+
+a.currentLink{
+  color: #9E8571;
+}
+
 .navLink{
   color: #3D3C39;
 }
+
+
+main{
+  flex-grow: 4;
+}
+
+aside{
+  background-color: #CAAD91;
+  flex-grow: 2;
+  height: 300px;
+}
+
 
 footer{
   color: #CDAB8D;
