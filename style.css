@@ -1,0 +1,48 @@
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: #DBD3BF;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3D3C39;
+  color: #CDAB8D;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+}
+
+nav{
+  background-color: #B4B4AD;
+}
+
+li{
+  margin: 0 10px 0 10px;
+  color: #3D3C39;
+}
+
+a{
+  color: #CDAB8D;
+}
+
+.navLink{
+  color: #3D3C39;
+}
+
+footer{
+  color: #CDAB8D;
+  background-color: #3D3C39;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
