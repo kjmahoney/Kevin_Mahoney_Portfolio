@@ -13,20 +13,33 @@ header {
   color: #CDAB8D;
 }
 
-ul{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  list-style: none;
+img{
+  height: 150px;
+  width: 150px
 }
 
 nav{
   background-color: #B4B4AD;
 }
 
+.navUl{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 li{
-  margin: 0 10px 0 10px;
+  margin: 10px 10px 10px 10px;
   color: #3D3C39;
 }
 
